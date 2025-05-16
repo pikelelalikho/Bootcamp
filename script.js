@@ -1,5 +1,5 @@
 // Page loaded animation
-window.addEventListener("DOMContentLoaded", () => {
+globalThis.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".fade-in").forEach((el, index) => {
     el.style.animationDelay = `${index * 0.3}s`;
   });
