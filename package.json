@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "A portfolio showcasing my cybersecurity and AI bootcamp learning journey.",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'This is a static site. Use a web server like live-server or serve.'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {}
+}
