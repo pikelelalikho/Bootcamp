@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #afe0d1;
+  background-color: #afe0d180;
   color: white;
   padding: 2rem;
   text-align: center;
@@ -75,6 +75,26 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.section-content ul {
+  flex: 1;
+  margin: 0;
+}
+
+.section-img {
+  width: 160px;
+  max-width: 40vw;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-left: 20px;
+}
+
 h1 {
   color: #000000;
 }
@@ -89,7 +109,7 @@ h2 {
   gap: 15px;
   max-width: 400px;
   margin: 0 auto 20px auto;
-  background: rgba(255,255,255,0.85);
+  background: rgba(182, 171, 171, 0.24);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
@@ -98,7 +118,7 @@ h2 {
 #contact-form input,
 #contact-form textarea {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #6439462f;
   border-radius: 5px;
   font-size: 1rem;
   resize: vertical;
@@ -108,7 +128,7 @@ h2 {
 #contact-form textarea:focus {
   outline: none;
   border-color: #2c3e50;
-  background: #f0f8ff;
+  background: #b2c3d159;
 }
 
 #contact-form button {
@@ -124,12 +144,12 @@ h2 {
 }
 
 #contact-form button:hover {
-  background: #007bff;
+  background: #e60b0b;
 }
 
 footer {
   background-color: #333;
-  color: white;
+  color: rgba(134, 129, 129, 0.445);
   text-align: center;
   padding: 1rem;
   position: fixed;
